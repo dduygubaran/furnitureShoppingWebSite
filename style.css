@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-bottom: 10rem;
 }
 
@@ -63,7 +63,7 @@ button {
   padding: 0 6px;
   font-size: 0.875rem;
   border-radius: 30%;
-  background-color: #FFB338;
+  background-color: #ffb338;
   color: #fff;
   font-weight: bold;
 }
@@ -103,11 +103,11 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 3.125rem;
 }
 
@@ -127,7 +127,7 @@ button {
 .banner-area .banner-content-title {
   font-size: 42px;
   color: #d4d4ca;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 @media (max-width: 768px) {
@@ -158,7 +158,7 @@ button {
   font-size: 1.125rem;
   letter-spacing: 0.05rem;
   text-decoration: none;
-  font-weight:500;
+  font-weight: 500;
   background: #38ff74;
   padding: 0.5rem 2.875rem;
   border-radius: 30px;
@@ -167,7 +167,7 @@ button {
 
 @media (max-width: 768px) {
   .banner-area .banner-content-link {
-    padding: .5rem 1.875rem;
+    padding: 0.5rem 1.875rem;
     font-size: 0.875rem;
   }
 }
@@ -178,7 +178,7 @@ button {
 
 .product-area-title {
   font-size: 3rem;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   text-align: center;
 }
@@ -194,8 +194,8 @@ button {
   margin-bottom: 1rem;
   border: 4px solid transparent;
   border-radius: 0.875rem;
-  -webkit-transition: .5s ease all;
-  transition: .5s ease all;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
 }
 
 .product-area .product-image > img {
@@ -209,30 +209,36 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   position: absolute;
   bottom: 0;
-  background: -webkit-gradient(linear, left bottom, left top, from(#181813), color-stop(174.29%, rgba(24, 24, 19, 0)));
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#181813),
+    color-stop(174.29%, rgba(24, 24, 19, 0))
+  );
   background: linear-gradient(0deg, #181813 0%, rgba(24, 24, 19, 0) 174.29%);
   border-radius: 0px 0px 10px 10px;
   padding: 1rem;
   opacity: 0;
-  -webkit-transition: .5s ease all;
-  transition: .5s ease all;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
 }
 
 .product-area .product-hover .product-title {
   font-size: 1.5rem;
   color: #fff;
-  font-family: 'Jacques Francois', serif;
+  font-family: "Jacques Francois", serif;
 }
 
 .product-area .product-hover .product-price {
   text-align: center;
   font-size: 1.5rem;
   color: #fff;
-  font-family: 'Jacques Francois', serif;
+  font-family: "Jacques Francois", serif;
 }
 
 .product-area .product-hover .btn-add-to-cart {
@@ -241,16 +247,16 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background: #38ff74;
   border-radius: 30%;
   border: 3px solid transparent;
-  -webkit-transition: .5s ease all;
-  transition: .5s ease all;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
 }
 
 .product-area .product-hover .btn-add-to-cart:focus {
@@ -289,16 +295,16 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-column-gap: 1rem;
-          column-gap: 1rem;
+  column-gap: 1rem;
   padding: 1.25rem;
-  border-top: 1px solid #E6E6E6;
+  border-top: 1px solid #e6e6e6;
 }
 
 .shopping-cart .cart-list-item:last-child {
-  border-bottom: 1px solid #E6E6E6;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .shopping-cart .cart-list-item .cart-left {
@@ -306,7 +312,7 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-column-gap: 1rem;
-          column-gap: 1rem;
+  column-gap: 1rem;
 }
 
 .shopping-cart .cart-list-item .cart-left-image > img {
@@ -319,11 +325,11 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .shopping-cart .cart-list-item .cart-left-info-title {
@@ -342,10 +348,10 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-column-gap: 1rem;
-          column-gap: 1rem;
+  column-gap: 1rem;
 }
 
 .shopping-cart .cart-list-item .cart-right-quantity {
@@ -353,12 +359,12 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 6px 8px;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #e6e6e6;
   -webkit-column-gap: 1rem;
-          column-gap: 1rem;
+  column-gap: 1rem;
   border-radius: 4px;
   font-size: 0.875rem;
 }
@@ -395,8 +401,8 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .shopping-cart-bottom .total .total-title {
@@ -411,10 +417,12 @@ button {
 .shopping-cart-bottom .btn-clear {
   font-weight: bold;
   width: 100%;
-  background: #FFB338;
+  background: #ffb338;
   color: #fff;
   padding: 0.812rem 0;
   border-radius: 4px;
   margin-top: 1rem;
 }
-/*# sourceMappingURL=style.css.map */
+
+
+
