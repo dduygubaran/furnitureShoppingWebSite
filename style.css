@@ -196,11 +196,15 @@ button {
   border-radius: 0.875rem;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
+  height: 500px;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .product-area .product-image > img {
   width: 100%;
   border-radius: 0.625rem;
+
 }
 
 .product-area .product-hover {
@@ -229,14 +233,14 @@ button {
 }
 
 .product-area .product-hover .product-title {
-  font-size: 1.5rem;
+  font-size: 15px;
   color: #fff;
   font-family: "Jacques Francois", serif;
 }
 
 .product-area .product-hover .product-price {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 15px;
   color: #fff;
   font-family: "Jacques Francois", serif;
 }
