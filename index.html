@@ -21,9 +21,9 @@
       <div class="container">
         <div class="navbar">
           <div class="navbar-left">
-            <span class="btn-bar">
+            <button class="btn-bar">
                 <i class="fas fa-bars"></i>
-            </span>
+            </button>
           </div>
           <div class="navbar-middle">
             <div class="logo">Icon</div>
@@ -43,7 +43,7 @@
     <div class="banner-area">
       <div class="banner">
         <div class="banner-image">
-          <img src="../images/banner.avif" alt="banner image"/>
+          <img src="../images/banner.avif" alt="banner image" class="img-fluid" />
         </div>
         <div class="banner-content">
           <span class="banner-content-subtitle">INDOORS</span>
@@ -84,12 +84,13 @@
     <div class="offcanvas offcanvas-end" id="offcanvasRight">
       <div class="offcanvas-header">
         <h5>Shopping Cart</h5>
-        <div class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></div>
+        <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
         <div class="shopping-cart">
           <ul class="cart-list">
-            <li class="cart-list-item">
+          <!-- -->
+             <li class="cart-list-item">
               <div class="cart-left">
                 <div class="cart-left-image">
                   <img src="../images/product1.png" alt="product"/>
@@ -117,8 +118,18 @@
                   </button>
                 </div>
               </div>
-            </li>
+            </li> 
+          
           </ul>
+
+          <div class="shopping-cart-bottom">
+            <div class="total">
+                <div class="total-title">Subtotal:</div>
+                <span class="total-value">$ 0</span>
+            </div>
+            <button class="btn-clear" type="button">CLEAR</button>
+        </div>
+
         </div>
       </div>
     </div>
